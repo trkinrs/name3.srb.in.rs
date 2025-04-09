@@ -1,21 +1,21 @@
-address: Ulica Poljoprivrednika 12, Beograd, Srbija
+---
+address: Centar
 images:
-  - url: "/assets/images/apples.jpg"
-    alt: "Jabuke"
-    hover: "/assets/images/apple-hover.jpg"
-  - url: "/assets/images/lettuce.jpg"
-    alt: "Zelena salata"
-    hover: "/assets/images/lettuce-hover.jpg"
-  - url: "/assets/images/tomato_juice.jpg"
-    alt: "Mleveni paradajz"
-    hover: "/assets/images/tomato-hover.jpg"
-phone: +381 64 123 4567
+- url: "/assets/images/apples.jpg"
+  alt: Jabuke
+  hover: "/assets/images/apple-hover.jpg"
+- url: "/assets/images/lettuce.jpg"
+  alt: Zelena salata
+  hover: "/assets/images/lettuce-hover.jpg"
+- url: "/assets/images/tomato_juice.jpg"
+  alt: Mleveni paradajz
+  hover: "/assets/images/tomato-hover.jpg"
+phone: "+381 64 123 4567"
 email: info@poljoprivreda.rs
 working_hours:
-- "Ponedeljak - Petak: 08:00 - 18:00"
-- "Subota: 08:00 - 14:00"
-- "Nedelja: Zatvoreno"
-
+- 'Ponedeljak - Petak: 08:00 - 18:00'
+- 'Subota: 08:00 - 14:00'
+- 'Nedelja: Zatvoreno'
 _schema:
   address:
     type: text_field
@@ -39,3 +39,4 @@ _schema:
   working_hours:
   - type: text_field
     label: Radno vreme
+working_hours_work_days: ''
