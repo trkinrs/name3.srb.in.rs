@@ -9,7 +9,7 @@ desc "Build the site with Jekyll"
 task :build, [:baseurl] do |task, args|
   baseurl = args[:baseurl] || ""
   sh "bundle install"
-  sh "bundle exec jekyll build -d #{SITE_DIR} --baseurl #{baseurl}"
+  sh "bundle exec jekyll build -d #{SITE_DIR} --baseurl '#{baseurl}'"
 end
 
 desc "Commit source code to main"
